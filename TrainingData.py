@@ -5,7 +5,6 @@ from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 
 
-
 df = pd.read_pickle("proper_dataset/audio_data.csv")
 
 x = df['fitur'].values
